@@ -21,13 +21,36 @@
     <header id="inicio"></header>
 
     <nav class="topnav">
-      <a href="../index.html"><i class="fa fa-home"></i> Inicio</a>
-      <a href="../pages/angular.html">Angular</a>
-      <a href="../pages/react.html">React</a>
-      <a href="#" class="active">Vue</a>
-      <a href="../pages/contacto.html"
-        ><i class="fa fa-address-book" aria-hidden="true"></i> Contacto</a
-      >
+      <section class="inicio">
+        <a href="../index.html"><i class="fa fa-home"></i> Inicio</a>
+      </section>
+
+      <section class="menu">
+        <a
+          class="wb"
+          data-bs-toggle="collapse"
+          href="#collapseExample"
+          role="button"
+          aria-expanded="false"
+          aria-controls="collapseExample"
+          ><i class="fa fa-bars" aria-hidden="true"></i> Menu</a
+        >
+        <div class="collapse" id="collapseExample">
+          <a href="../pages/angular.html" class="wb"
+          >Angular</a
+        >
+        <a href="../pages/react.html" class="wb"
+          >React</a
+        >
+        <a href="#" class="wb active" >Vue</a>
+        </div>
+      </section>
+
+      <section class="contacto">
+        <a href="../pages/contacto.html"
+          ><i class="fa fa-address-book" aria-hidden="true"></i> Contacto</a
+        >
+      </section>
     </nav>
 
     <main class="fila">
@@ -297,5 +320,10 @@
       </ul>
       <p>Si quieres puedes seguirnos! :D</p>
     </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
+      integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
