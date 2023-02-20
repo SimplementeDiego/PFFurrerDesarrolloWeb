@@ -22,14 +22,6 @@ header {
 
 /* Header */
 
-/* Link visitado en general */
-
-a:visited {
-  color: black;
-}
-
-/* Link visitado en general */
-
 /* Nav bar */
 
 .topnav {
@@ -465,12 +457,25 @@ footer ul{
   align-items: baseline;
 }
 
+
+
 /* Propiedades particulares */
 
 
 
 
 
+/* Link visitado en general */
+
+a{
+  color: black;
+}
+
+a:visited {
+  color: black;
+}
+
+/* Link visitado en general */
 
 
 
