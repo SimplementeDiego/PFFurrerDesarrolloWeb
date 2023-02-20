@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+  </head>
+  <body>
+    <header id="inicio"></header>
+
+    <nav class="topnav">
+      <a href="../index.html"><i class="fa fa-home"></i> Inicio</a>
+      <a href="../pages/angular.html">Angular</a>
+      <a href="#" class="active">React</a>
+      <a href="../pages/vue.html">Vue</a>
+      <a href="../pages/contacto.html"
+        ><i class="fa fa-address-book" aria-hidden="true"></i> Contacto</a
+      >
+    </nav>
+
+    <main class="fila">
+      <section class="leftcolumn">
+        <div class="caja">
+          <article class="card title">
+            <img src="../images/pngwing.com.png" alt="ReactLogo" class="logo" />
+          </article>
+        </div>
+        <article class="card">
+          <h2 class="centerLined">Descripción</h2>
+          <p>
+            React es una librería de Javascript de código abierto diseñada para
+            crear interfaces de usuario de forma sencilla. Fue creada por
+            Facebook aunque, actualmente, también es mantenido por la comunidad
+            de software libre. Su principal característica es el uso de un DOM
+            virtual donde se realizan todos los cambios de la interfaz de
+            usuario, que luego se aplican al verdadero DOM, acelerando así
+            enormemente la ejecución de aplicaciones. Se puede utilizar tanto
+            para crear sitios de web dinámicos de una sola página, como para
+            paneles de control o grandes plataformas web. Actualmente se
+            encuentra en la versión 18.
+          </p>
+        </article>
+        <article class="card">
+          <h2 class="centerLined">Ventajas</h2>
+          <h3 class="nom">DOM virtual</h3>
+          <p class="nom mb">
+            Como comentamos anteriormente, la principal ventaja de React es
+            poder generar el DOM de forma dinámica. Es decir, aplicar los
+            cambios de estado en un DOM Virtual y posteriormente aplicar sólo
+            estos cambios en el verdadero DOM. Esto repercutirá en que el
+            rendimiento sea muy superior, ya que para visualizar los datos no es
+            necesario renderizar toda la página.
+          </p>
+          <h3 class="nom">Multiplataforma</h3>
+          <p class="nom mb">
+            React Native es un framework de aplicaciones nativas multiplataforma
+            que se basa en Javascript y React. Llevar tu aplicación React a que
+            sea compatible con React Native no es muy costoso y te brinda la
+            oportunidad de desarrollar una aplicación multiplataforma que se
+            pueda utilizar en cualquier dispositivo.
+          </p>
+          <h3 class="nom">Isomorfismo</h3>
+          <p class="nom">
+            React permite crear código que se ejecuta tanto en contextos de
+            servidor como de cliente, reduciendo así la carga de trabajo
+            necesaria para realizar aplicaciones web óptimas para
+            posicionamiento web.
+          </p>
+        </article>
+        <article class="card">
+          <div>
+            <h2 class="centerLined">Video-Tutoriales</h2>
+          </div>
+          <div class="caja">
+            <div class="mitad">
+              <div class="videoContainer">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/b9eMGE7QtTk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="video"
+                ></iframe>
+              </div>
+            </div>
+            <div class="mitad">
+              <div class="videoContainer">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/6Jfk8ic3KVk"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen
+                  class="video"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article class="card">
+          <h2 class="centerLined">Ejemplos con React</h2>
+          <div class="galeria">
+            <img src="../images/discord.jpg" alt="" />
+            <img src="../images/whatsapp.jpg" alt="" />
+          </div>
+        </article>
+      </section>
+      <section class="rightcolumn">
+        <article class="card">
+          <h2 class="centerLined">Información</h2>
+          <div class="infoContainer title">
+            <div class="caja">
+              <a href="https://es.reactjs.org/" target="_blank">
+                <img src="../images/react.png" alt="AngularLogo" class="logo" />
+              </a>
+            </div>
+            <div class="boton">
+              <a href="https://es.reactjs.org/" target="_blank" class="l"
+                >Página Web</a
+              >
+            </div>
+          </div>
+          <p>
+            <span class="bold">Tipo de programa:</span> Software libre y de
+            código abierto
+          </p>
+          <p><span class="bold">Autor:</span> Jordan Walke</p>
+          <p>
+            <span class="bold">Desarrollador:</span> Facebook, and community.
+          </p>
+          <p>
+            <span class="bold">Lanzamiento inicial:</span> 29 de mayo de 2013
+          </p>
+        </article>
+        <article class="card">
+          <h2 class="centerLined">Utilizado por</h2>
+          <ul>
+            <li class="listaU">
+              <a href="https://es-la.facebook.com/" target="_blank" class="l"
+                >Facebook</a
+              >
+            </li>
+            <li class="listaU">
+              <a
+                href="https://www.instagram.com/?hl=es"
+                target="_blank"
+                class="l"
+                >Instagram</a
+              >
+            </li>
+            <li class="listaU">
+              <a href="https://discord.com/" target="_blank" class="l"
+                >Discord</a
+              >
+            </li>
+            <li class="listaU">
+              <a href="https://www.tesla.com/" target="_blank" class="l"
+                >Tesla</a
+              >
+            </li>
+            <li class="listaU">
+              <a href="https://es-l.airbnb.com/" target="_blank" class="l"
+                >Airbnb</a
+              >
+            </li>
+          </ul>
+        </article>
+        <section class="card mb-4">
+
+          <!--Section heading-->
+          <h2 class="h1-responsive font-weight-bold text-center my-4">¡Contáctanos!</h2>
+          <!--Section description-->
+          <p class="text-center w-responsive mx-auto mb-5">Tienes consultas? No dudes en contactarnos directamente asi podemos mejorar. Nuestro equipo respondera lo antes posible. Muchas gracias!</p>
+      
+          <div class="row">
+      
+              <!--Grid column-->
+              <div class="col-md-12 mb-md-0 mb-5">
+                  <form id="contact-form" name="contact-form" action="mail.php" method="POST">
+      
+                      <!--Grid row-->
+                      <div class="row">
+      
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="name" name="name" class="form-control">
+                                  <label for="name" class="">Nombre</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+      
+                          <!--Grid column-->
+                          <div class="col-md-6">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="email" name="email" class="form-control">
+                                  <label for="email" class="">Tu email</label>
+                              </div>
+                          </div>
+                          <!--Grid column-->
+      
+                      </div>
+                      <!--Grid row-->
+      
+                      <!--Grid row-->
+                      <div class="row">
+                          <div class="col-md-12">
+                              <div class="md-form mb-0">
+                                  <input type="text" id="subject" name="subject" class="form-control">
+                                  <label for="subject" class="">Asunto</label>
+                              </div>
+                          </div>
+                      </div>
+                      <!--Grid row-->
+      
+                      <!--Grid row-->
+                      <div class="row">
+      
+                          <!--Grid column-->
+                          <div class="col-md-12">
+      
+                              <div class="md-form">
+                                  <textarea type="text" id="message" name="message" rows="2" class="form-control md-textarea"></textarea>
+                                  <label for="message">Mensaje</label>
+                              </div>
+      
+                          </div>
+                      </div>
+                      <!--Grid row-->
+      
+                  </form>
+      
+                  <div class="text-center text-md-left">
+                      <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Enviar</a>
+                  </div>
+                  <div class="status"></div>
+              </div>
+              <!--Grid column-->
+          </div>
+      
+      </section>
+        <article class="botonFinContainer"><a href="#inicio" class="botonFin">Volver para arriba</a></article>
+        <article class="botonFinContainer"><a href="../index.html" class="botonFin">Volver al inicio</a></article>
+      </section>
+    </main>
+    <footer>
+      <ul class="lista">
+        <li>
+          <a
+            href="https://www.instagram.com/diego_furrer/?hl=es"
+            target="_blank"
+            ><img
+              src="../images/imginstagram.webp"
+              alt="instagramLogo"
+              class="iconfooter"
+          /></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/diego-furrer-dellepiane/"
+            target="_blank"
+            ><img
+              src="../images/imglinkedin.png"
+              alt="linkedinLogo"
+              class="iconfooter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://www.youtube.com/" target="_blank"
+            ><img
+              src="../images/youtubelogo.png"
+              alt="linkedinLogo"
+              class="iconfooter"
+          /></a>
+        </li>
+        <li>
+          <a href="https://es-la.facebook.com/" target="_blank"
+            ><img
+              src="../images/facebooklogo.jpeg"
+              alt="linkedinLogo"
+              class="iconfooter"
+          /></a>
+        </li>
+      </ul>
+      <p>Si quieres puedes seguirnos! :D</p>
+    </footer>
+  </body>
+</html>
