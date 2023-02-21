@@ -565,16 +565,16 @@ footer ul{
   }
 
   .topnav section{
-    width: 120px;
+    width: 100%;
   }
 
   .topnav section div{
-    width: 120px;
+    width: 100%;
   }
 
   .topnav a{
     display: block;
-    width: 120px;
+    width: 100%;
   }
 
   .menu div{
