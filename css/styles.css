@@ -227,7 +227,7 @@ img.logo {
 }
 
 .videoContainer {
-  max-width: 560px;
+  width: 100%;
   height: 315px;
   margin: auto;
 }
@@ -502,8 +502,39 @@ footer ul{
 
 /* Propiedades particulares */
 
+.car{
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
 
+.car img{
+  height: 315px;
+}
 
+.mt{
+  margin-top: 20px;
+}
+
+.texto{
+ height: 100%;
+ display: flex;
+ justify-content: center;
+  align-content: center;
+}
+
+.car div h2{
+  height: fit-content;
+}
+
+.carousel-control-prev-icon{
+  background-color: gray;
+}
+
+.carousel-control-next-icon{
+  background-color: gray;
+}
 
 /*Responsive con tamaños fijos de pantalla*/
 
