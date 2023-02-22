@@ -228,7 +228,7 @@ img.logo {
 
 .videoContainer {
   width: 100%;
-  height: 315px;
+  height: 500px;
   margin: auto;
 }
 
@@ -243,6 +243,7 @@ img.logo {
   width: fit-content;
   margin: auto;
   padding: 10px;
+  margin-bottom: 15px;
 }
 
 /* Videos */
@@ -502,15 +503,21 @@ footer ul{
 
 /* Propiedades particulares */
 
+.ImgVid {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .car{
-  height: 400px;
+  height: 600px;
   display: flex;
   justify-content: center;
   align-content: center;
+  width: 45%;
 }
 
 .car img{
-  height: 315px;
+  height: 500px;
 }
 
 .mt{
@@ -610,5 +617,86 @@ footer ul{
 
   .menu div{
     flex-direction: column;
+  }
+}
+
+
+
+
+@media screen and (max-width: 2000px) {
+  .car {
+    height: 450px;
+  }
+  .car img{
+    height: 350px;
+  }
+  .videoContainer{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 2000px) {
+  .car {
+    height: 450px;
+  }
+  .car img{
+    height: 350px;
+  }
+  .videoContainer{
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .ImgVid{
+    flex-direction: column;
+    align-items: center;
+  }
+  .car {
+    height: 600px;
+    width: 100%;
+  }
+  .car img{
+    height: 500px;
+  }
+  .videoContainer{
+    height: 500px;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  
+  .car {
+    height: 500px;
+  }
+  .car img{
+    height: 400px;
+  }
+  .videoContainer{
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .car {
+    height: 400px;
+  }
+  .car img{
+    height: 300px;
+  }
+  .videoContainer{
+    height: 300px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .car {
+    height: 300px;
+  }
+  .car img{
+    height: 200px;
+  }
+  .videoContainer{
+    height: 200px;
   }
 }

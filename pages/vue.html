@@ -102,14 +102,16 @@
             simples.
           </p>
         </article>
-        <article class="card">
-          <div>
-            <h2 class="centerLined">Video-Tutoriales</h2>
-          </div>
-          <div class="caja fc">
-            <div class="mitad">
-              <div class="videoContainer">
-                <iframe
+        <article class="ImgVid">
+          <article class="card car">
+            <div class="texto">
+              <h2 class="centerLined nom">Video-Tutoriales</h2>
+            </div>
+            <div id="carouselExampleControlsC" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="videoContainer d-block w-100">
+                    <iframe
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/qZXt1Aom3Cs"
@@ -119,11 +121,11 @@
                   allowfullscreen
                   class="video"
                 ></iframe>
-              </div>
-            </div>
-            <div class="mitad">
-              <div class="videoContainer">
-                <iframe
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="videoContainer d-block w-100">
+                    <iframe
                   width="560"
                   height="315"
                   src="https://www.youtube.com/embed/Y4hfWBJ-UzY"
@@ -133,16 +135,42 @@
                   allowfullscreen
                   class="video"
                 ></iframe>
+                  </div>
+                </div>
               </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsC" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsC" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-          </div>
-        </article>
-        <article class="card">
-          <h2 class="centerLined">Ejemplos con Vue</h2>
-          <div class="galeria">
-            <img src="../images/discord.jpg" alt="" />
-            <img src="../images/whatsapp.jpg" alt="" />
-          </div>
+          </article>
+          <article class="card car">
+            <div class="texto">
+              <h2 class="centerLined nom">Ejemplos con Vue</h2>
+            </div>
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../images/discord.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="../images/whatsapp.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </article>
         </article>
       </section>
       <section class="rightcolumn">
