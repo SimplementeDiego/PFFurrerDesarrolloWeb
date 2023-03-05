@@ -41,7 +41,7 @@ body {
 }
 .pulse-button {
   cursor: pointer;
-  animation: pulse 1.5s infinite;
+  animation: pulse 4s infinite;
   &:hover {
     animation: none;
   }
