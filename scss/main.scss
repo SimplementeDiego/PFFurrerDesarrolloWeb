@@ -22,33 +22,33 @@ body {
 
 /* Animations */
 @keyframes pulse {
-	0% {
-		transform: scale(0.95);
-	}
-	70% {
-		transform: scale(1);
-		box-shadow: 0 0 0 10px rgba(#5a99d4, 0);
-	}
-	100% {
-		transform: scale(0.95);
-		box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
-	}
+  0% {
+    transform: scale(0.95);
+  }
+  70% {
+    transform: scale(1);
+    box-shadow: 0 0 0 10px rgba(#5a99d4, 0);
+  }
+  100% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
+  }
 }
 .grow {
-	&:hover {
-    a{
-      color: black;
-    }
-		transform: scale(1.1);
-	}
+  &:hover {
+    transform: scale(1.1);
+  }
 }
 .pulse-button {
-	cursor: pointer;
-	box-shadow: 0 0 0 0 rgba(#5a99d4, 0.5);
-	animation: pulse 1.5s infinite;
-	&:hover {
-		animation: none;
-	}
+  a {
+    color: black;
+  }
+  cursor: pointer;
+  box-shadow: 0 0 0 0 rgba(#5a99d4, 0.5);
+  animation: pulse 1.5s infinite;
+  &:hover {
+    animation: none;
+  }
 }
 /* Animations */
 
@@ -64,11 +64,20 @@ header {
 /* Header */
 
 /* Standard link */
-a {
+a:link {
   color: black;
-  &:visited {
-    color: black;
-  }
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
+  color: black;
 }
 /* Standard link */
 
