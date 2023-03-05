@@ -36,6 +36,9 @@ body {
 }
 .grow {
 	&:hover {
+    a{
+      color: black;
+    }
 		transform: scale(1.1);
 	}
 }
