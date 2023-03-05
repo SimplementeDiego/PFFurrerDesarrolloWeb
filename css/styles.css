@@ -529,9 +529,6 @@ ul {
     width: 100%;
     padding: 0;
   }
-  main {
-    flex-direction: column;
-  }
   .mc {
     width: 80%;
   }
