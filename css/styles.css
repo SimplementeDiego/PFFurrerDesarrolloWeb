@@ -431,6 +431,14 @@ ul {
   margin-top: 20px;
 }
 
+.ai {
+  align-items: stretch;
+}
+
+.jcc {
+  justify-content: center;
+}
+
 /* Propiedades especificas */
 /* Carousel */
 .ImgVid {
@@ -538,6 +546,9 @@ ul {
   }
   .mc {
     width: 80%;
+  }
+  .ai {
+    align-items: center;
   }
 }
 @media screen and (max-width: 600px) {
