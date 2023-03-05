@@ -34,6 +34,9 @@ body {
   box-shadow: 0 0 0 0 rgba(90, 153, 212, 0.5);
   animation: pulse 1.5s infinite;
 }
+.pulse-button a {
+  color: black;
+}
 .pulse-button:hover {
   animation: none;
 }
@@ -51,10 +54,27 @@ header {
 
 /* Header */
 /* Standard link */
-a {
+.navbar-light .navbar-nav .nav-link {
   color: black;
 }
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: black;
+}
+
+a:link {
+  color: black;
+}
+
 a:visited {
+  color: black;
+}
+
+a:hover {
+  color: black;
+}
+
+a:active {
   color: black;
 }
 
