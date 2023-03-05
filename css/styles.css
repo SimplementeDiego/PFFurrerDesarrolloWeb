@@ -518,6 +518,9 @@ ul {
   }
 }
 @media screen and (max-width: 800px) {
+  .fdc {
+    flex-direction: column;
+  }
   .botonFinContainer {
     display: block;
   }

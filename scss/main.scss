@@ -467,6 +467,7 @@ ul {
 
 /* Media Queries */
 @media screen and (max-width: 1400px) {
+  
   .galeria {
     img {
       max-width: 100%;
@@ -495,6 +496,9 @@ ul {
   }
 }
 @media screen and (max-width: 800px) {
+  .fdc{
+    flex-direction: column;
+  }
   .botonFinContainer {
     display: block;
   }
@@ -528,6 +532,7 @@ ul {
       width: 100%;
     }
   }
+  
   .menu {
     flex-direction: column;
     div {
