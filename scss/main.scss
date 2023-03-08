@@ -1,3 +1,6 @@
+@use './partials/card';
+
+
 @mixin standard-flex {
   display: flex;
   justify-content: center;
@@ -111,34 +114,6 @@ a {
   margin-left: auto;
 }
 /* Nav*/
-
-/* Sistema de cards */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-.rightcolumn {
-  float: left;
-  width: 25%;
-  padding-left: 20px;
-}
-.card {
-  background-color: #75d4e6;
-  padding: 20px;
-  margin-top: 20px;
-  border-radius: 5px;
-  margin-bottom: 40px;
-  box-shadow: -2px 2px 5px gray;
-  border: none;
-}
-.fila {
-  &:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-}
-/* Sistema de cards */
 
 /* Card utilizado por */
 .listaU {
