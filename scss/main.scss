@@ -82,9 +82,13 @@ a {
   flex-wrap: wrap;
   flex-direction: row;
   section {
-    width: auto;
+    min-width: fit-content;
+    width: 10%;
     display: flex;
     align-items: center;
+    a{
+      width: 100%;
+    }
     div {
       display: flex;
       a {
@@ -108,6 +112,22 @@ a {
   }
   a.active {
     background-color: rosybrown;
+  }
+  .menu{
+    min-width: fit-content;
+    width: 40%;
+    a{
+      min-width: fit-content;
+      width: 25%;
+    }
+    div{
+      min-width: fit-content;
+      width: 75%;
+      a{
+        min-width: fit-content;
+        width: calc(100% / 3);
+      }
+    } 
   }
 }
 .contacto {
@@ -497,7 +517,7 @@ ul {
     flex-direction: column;
     align-items: center;
     section {
-      width: 100%;
+      min-width: 100%;
       div {
         width: 100%;
       }
@@ -506,14 +526,22 @@ ul {
       display: block;
       width: 100%;
     }
-  }
-  
-  .menu {
-    flex-direction: column;
-    div {
+    .menu {
+      width: 100%;
       flex-direction: column;
+      div {
+        width: 100%;
+        flex-direction: column;
+        a{
+          width: 100%;
+        }
+      }
+      a{
+        width: 100%;
+      }
     }
   }
+  
   .contacto {
     margin-left: 0;
   }

@@ -101,9 +101,13 @@ a:link, a:visited, a:hover, a:active {
   flex-direction: row;
 }
 .topnav section {
-  width: auto;
+  min-width: fit-content;
+  width: 10%;
   display: flex;
   align-items: center;
+}
+.topnav section a {
+  width: 100%;
 }
 .topnav section div {
   display: flex;
@@ -127,6 +131,22 @@ a:link, a:visited, a:hover, a:active {
 }
 .topnav a.active {
   background-color: rosybrown;
+}
+.topnav .menu {
+  min-width: fit-content;
+  width: 40%;
+}
+.topnav .menu a {
+  min-width: fit-content;
+  width: 25%;
+}
+.topnav .menu div {
+  min-width: fit-content;
+  width: 75%;
+}
+.topnav .menu div a {
+  min-width: fit-content;
+  width: 33.3333333333%;
 }
 
 .contacto {
@@ -545,7 +565,7 @@ ul {
     align-items: center;
   }
   .topnav section {
-    width: 100%;
+    min-width: 100%;
   }
   .topnav section div {
     width: 100%;
@@ -554,11 +574,19 @@ ul {
     display: block;
     width: 100%;
   }
-  .menu {
+  .topnav .menu {
+    width: 100%;
     flex-direction: column;
   }
-  .menu div {
+  .topnav .menu div {
+    width: 100%;
     flex-direction: column;
+  }
+  .topnav .menu div a {
+    width: 100%;
+  }
+  .topnav .menu a {
+    width: 100%;
   }
   .contacto {
     margin-left: 0;
