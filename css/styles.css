@@ -39,6 +39,7 @@ body {
   background-size: cover;
   margin: 8px;
   padding: 10px;
+  min-height: 100vh;
 }
 
 /* Animations */
@@ -537,7 +538,7 @@ ul {
     width: 100%;
   }
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1050px) {
   .fdc {
     flex-direction: column;
   }
