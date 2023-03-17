@@ -1,15 +1,7 @@
 @use './partials/card';
+@use './partials/mixin' as m;
+@use './partials/animation';
 
-
-@mixin standard-flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-@mixin height-width($h, $w) {
-  height: $h;
-  width: $w;
-}
 
 * {
   box-sizing: border-box;
@@ -19,8 +11,6 @@ body {
   background-image: url(../images/FondoBody.webp);
   background-repeat: no-repeat;
   background-size: cover;
-  // margin: 8px;
-  // padding: 10px;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -33,35 +23,6 @@ main{
 .contacto-container{
   min-height: 100px;
 }
-
-
-/* Animations */
-@keyframes pulse {
-  0% {
-    transform: scale(0.95);
-  }
-  70% {
-    transform: scale(1);
-    box-shadow: 0 0 0 10px rgba(#5a99d4, 0);
-  }
-  100% {
-    transform: scale(0.95);
-    box-shadow: 0 0 0 0 rgba(#5a99d4, 0);
-  }
-}
-.grow {
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-.pulse-button {
-  cursor: pointer;
-  animation: pulse 4s infinite;
-  &:hover {
-    animation: none;
-  }
-}
-/* Animations */
 
 /* Header */
 header {
@@ -177,7 +138,7 @@ a {
   justify-content: center;
 }
 img.logo {
-  @include height-width(100px, 100px);
+  @include m.height-width(100px, 100px);
   display: block;
   margin: 0 auto;
 }
@@ -306,7 +267,7 @@ img.logo {
   justify-content: space-evenly;
   align-items: center;
   img {
-    @include height-width(200px, 200px);
+    @include m.height-width(200px, 200px);
     display: block;
     margin: 0 auto;
   }
@@ -318,7 +279,7 @@ img.logo {
   }
 }
 .elegir-container{
-  @include standard-flex();
+  @include m.standard-flex();
   width: 100%;
 }
 .elegir {
@@ -328,7 +289,7 @@ img.logo {
   width: 100%
 }
 .texto-container{
-  @include standard-flex();
+  @include m.standard-flex();
   flex-direction: row;
   justify-content: space-around;
   
@@ -340,7 +301,7 @@ img.logo {
 
 /* Footer */
 footer {
-  @include standard-flex;
+  @include m.standard-flex;
   text-align: center;
   background: lightskyblue;
   margin-top: 20px;
@@ -364,7 +325,7 @@ ul {
   list-style-type: none;
 }
 .iconfooter {
-  @include height-width(35px, 35px);
+  @include m.height-width(35px, 35px);
   margin: 0 15px;
 }
 /* Footer */
@@ -439,12 +400,12 @@ ul {
 }
 
 .texto {
-  @include standard-flex;
+  @include m.standard-flex;
   height: 100%;
 }
 
 .car {
-  @include standard-flex;
+  @include m.standard-flex;
   width: 45%;
   div {
     h2 {
@@ -470,7 +431,7 @@ ul {
   left: 0;
   bottom: 0;
   right: 0;
-  @include height-width(100%, 100%);
+  @include m.height-width(100%, 100%);
 }
 
 .videoContainer {
