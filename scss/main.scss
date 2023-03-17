@@ -345,11 +345,11 @@ footer {
   text-align: center;
   background: lightskyblue;
   margin-top: 20px;
-  border-radius: 5px;
   height: fit-content;
   flex-wrap: wrap;
   padding: 15px;
-  border: 2px solid gray;
+  border-top: 2px solid gray;
+  border-bottom: 2px solid gray;
   p {
     margin-left: 30px;
     margin: 0;
