@@ -19,10 +19,21 @@ body {
   background-image: url(../images/FondoBody.webp);
   background-repeat: no-repeat;
   background-size: cover;
+  // margin: 8px;
+  // padding: 10px;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+main{
+  min-height: 80vh;
   margin: 8px;
   padding: 10px;
-  min-height: 100vh;
 }
+.contacto-container{
+  min-height: 100px;
+}
+
 
 /* Animations */
 @keyframes pulse {
@@ -307,7 +318,23 @@ img.logo {
     background-color: #bebed2;
   }
 }
+.elegir-container{
+  @include standard-flex();
+  width: 100%;
+}
 .elegir {
+  width: 60%;
+}
+.botones-container{
+  width: 100%
+}
+.texto-container{
+  @include standard-flex();
+  flex-direction: row;
+  justify-content: space-around;
+  
+}
+.index-texto{
   width: 30%;
 }
 /* Botones para elegir del Index */
@@ -333,6 +360,9 @@ footer {
     margin: 0;
     list-style-type: none;
   }
+}
+ul {
+  list-style-type: none;
 }
 .iconfooter {
   @include height-width(35px, 35px);
@@ -397,6 +427,9 @@ ul {
 }
 .jcc{
   justify-content: center;
+}
+.fuerte{
+  font-weight: bolder;
 }
 /* Propiedades especificas */
 
@@ -470,16 +503,6 @@ ul {
       padding: 1rem;
     }
   }
-  .galeriaIndex {
-    display: flex;
-    flex-flow: wrap;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-  .elegir {
-    width: 100%;
-  }
   .fc {
     flex-direction: column;
   }
@@ -492,6 +515,21 @@ ul {
   }
 }
 @media screen and (max-width: 1050px) {
+
+  .galeriaIndex {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .index-texto{
+    width: 90%;
+  }
+  .texto-container{
+    flex-direction: column;
+  }
   .fdc{
     flex-direction: column;
   }
@@ -514,6 +552,9 @@ ul {
   }
 }
 @media screen and (max-width: 600px) {
+  .elegir{
+    width: 80%;
+  }
   .topnav {
     flex-direction: column;
     align-items: center;
