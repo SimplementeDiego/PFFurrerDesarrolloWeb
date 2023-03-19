@@ -70,7 +70,7 @@ body {
 }
 
 main {
-  min-height: calc(100vh - 100px - 52px - 78px - 16px);
+  min-height: calc(100vh - 100px - 52px - 69px - 16px);
   margin: 8px;
   padding: 10px;
 }
