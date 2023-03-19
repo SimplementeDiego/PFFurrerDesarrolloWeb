@@ -305,17 +305,11 @@ footer {
   @include m.standard-flex;
   text-align: center;
   background: lightskyblue;
-  // margin-top: 20px;
   height: fit-content;
   flex-wrap: wrap;
   padding: 15px;
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
-  p {
-    margin-left: 30px;
-    margin: 0;
-    padding: 10px 0;
-  }
   ul {
     display: flex;
     margin: 0;

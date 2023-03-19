@@ -382,11 +382,6 @@ footer {
   border-top: 2px solid gray;
   border-bottom: 2px solid gray;
 }
-footer p {
-  margin-left: 30px;
-  margin: 0;
-  padding: 10px 0;
-}
 footer ul {
   display: flex;
   margin: 0;
