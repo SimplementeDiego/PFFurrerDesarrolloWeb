@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>React</title>
-    <meta name="description" content="Aprender sobre React">
-    <meta name="keywords" content="FRAMEWORK, LIBRERIA, ANGULAR, REACT, VUE, PROGRAMACION, DESARROLLO WEB">
+    <meta name="description" content="Aprender sobre React" />
+    <meta
+      name="keywords"
+      content="FRAMEWORK, LIBRERIA, ANGULAR, REACT, VUE, PROGRAMACION, DESARROLLO WEB"
+    />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -21,50 +24,57 @@
   </head>
   <body>
     <!-- Header -->
-    <header id="inicio"></header>
+    <header id="inicio">
+
+      <!-- Img -->
+      <div class="img-header"></div>
+      <!-- Img -->
+
+      <!-- Nav -->
+      <nav class="topnav">
+        <section>
+          <a href="../index.html"><i class="fa fa-home"></i> Inicio</a>
+        </section>
+
+        <section class="menu">
+          <a
+            class="wb"
+            data-bs-toggle="collapse"
+            href="#collapseExample"
+            role="button"
+            aria-expanded="false"
+            aria-controls="collapseExample"
+            ><i class="fa fa-bars" aria-hidden="true"></i> Menu</a
+          >
+          <div class="collapse" id="collapseExample">
+            <a href="../pages/angular.html" class="wb">Angular</a>
+            <a href="#" class="wb active">React</a>
+            <a href="../pages/vue.html" class="wb">Vue</a>
+          </div>
+        </section>
+
+        <section class="contacto">
+          <a href="../pages/contacto.html"
+            ><i class="fa fa-address-book" aria-hidden="true"></i> Contacto</a
+          >
+        </section>
+      </nav>
+      <!-- Nav -->
+    </header>
     <!-- Header -->
-
-    <!-- Nav -->
-    <nav class="topnav">
-      <section class="inicio">
-        <a href="../index.html"><i class="fa fa-home"></i> Inicio</a>
-      </section>
-
-      <section class="menu">
-        <a
-          class="wb"
-          data-bs-toggle="collapse"
-          href="#collapseExample"
-          role="button"
-          aria-expanded="false"
-          aria-controls="collapseExample"
-          ><i class="fa fa-bars" aria-hidden="true"></i> Menu</a
-        >
-        <div class="collapse" id="collapseExample">
-          <a href="../pages/angular.html" class="wb">Angular</a>
-          <a href="#" class="wb active">React</a>
-          <a href="../pages/vue.html" class="wb">Vue</a>
-        </div>
-      </section>
-
-      <section class="contacto">
-        <a href="../pages/contacto.html"
-          ><i class="fa fa-address-book" aria-hidden="true"></i> Contacto</a
-        >
-      </section>
-    </nav>
-    <!-- Nav -->
 
     <!-- Main -->
     <main class="fila">
-
       <!-- Columna Izquierda -->
       <section class="leftcolumn">
-
         <!-- Logo -->
         <div class="caja">
           <article class="card title">
-            <img src="../images/LogoReact200.webp" alt="ReactLogo" class="logo" />
+            <img
+              src="../images/LogoReact200.webp"
+              alt="ReactLogo"
+              class="logo"
+            />
           </article>
         </div>
         <!-- Logo -->
@@ -246,20 +256,22 @@
           </article>
         </article>
         <!-- Videos e Imagenes -->
-
       </section>
       <!-- Columna Izquierda -->
 
       <!-- Columna Derecha -->
       <section class="rightcolumn">
-
         <!-- Informacion -->
         <article class="card">
           <h2 class="centerLined">Información</h2>
           <div class="infoContainer title">
             <div class="caja">
               <a href="https://es.reactjs.org/" target="_blank">
-                <img src="../images/LogoReact200.webp" alt="React Logo" class="logo" />
+                <img
+                  src="../images/LogoReact200.webp"
+                  alt="React Logo"
+                  class="logo"
+                />
               </a>
             </div>
             <div class="boton">
@@ -424,10 +436,8 @@
           <a href="../index.html" class="botonFin">Volver al inicio</a>
         </article>
         <!-- Botones Volver -->
-
       </section>
       <!-- Columna Derecha -->
-
     </main>
     <!-- Main -->
 

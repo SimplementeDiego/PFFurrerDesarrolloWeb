@@ -80,7 +80,7 @@ main {
 }
 
 /* Header */
-header {
+.img-header {
   height: 100px;
   background-image: url(../images/FondoHeader.webp);
   background-repeat: no-repeat;
